@@ -1,0 +1,25 @@
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 30%;
+  border: 1px solid #ddd;
+  line-height: 1px;
+  
+}
+
+th, td {
+  border-collapse: collapse;
+  text-align: left;
+  padding: 16px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(27, 252, 27);
+}
+th{
+  color: blue;
+  font-size: 22px;
+  background-color: rgb(197, 193, 193);
+}
